@@ -1,15 +1,17 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
     width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 h1 {
-    margin-left: 20px;
+    margin-left: 16px;
     margin-top: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -17,8 +19,9 @@ h1 {
 table,
 th,
 td {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: auto;
+    margin-left: 16px;
+    margin-right: 16px;
     margin-top: 10px;
 
     border-collapse: collapse;
